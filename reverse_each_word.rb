@@ -1,7 +1,7 @@
 
-sentence = "Hi again, just making sure it's reversed!" 
+sentence = "Hi_again,_just_making_sure_it's_reversed!" 
 def reverse_each_word(sentence)
-  reversed = sentence.split(" ").collect do |word|
+  reversed = sentence.split("_").collect do |word|
   word.reverse
 end
   puts reversed 
